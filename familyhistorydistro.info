@@ -1,6 +1,6 @@
-; $Id: standard.info,v 1.1 2010/01/04 23:08:34 webchick Exp $
-name = Standard
-description = Install with commonly used features pre-configured.
+; $Id: familyhistorydistro.info,v 1.1 2010/01/04 23:08:34 webchick Exp $
+name = Family History Distro
+description = Install a Family History site.
 version = VERSION
 core = 7.x
 
@@ -23,7 +23,7 @@ dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
 dependencies[] = rdf
-files[] = standard.profile
+files[] = familyhistorydistro.profile
 
 ; Contrib
 dependencies[] = context

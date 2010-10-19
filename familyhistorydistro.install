@@ -1,12 +1,12 @@
 <?php
-// $Id: standard.install,v 1.23 2010/09/07 18:01:32 webchick Exp $
+// $Id: familyhistorydistro.install,v 1.23 2010/09/07 18:01:32 webchick Exp $
 
 /**
  * Implements hook_install().
  *
  * Perform actions to set up the site for this profile.
  */
-function standard_install() {
+function familyhistorydistro_install() {
   // Add text formats.
   $filtered_html_format = array(
     'name' => 'Filtered HTML',
@@ -63,7 +63,7 @@ function standard_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
-  // Enable some standard blocks.
+  // Enable some familyhistorydistro blocks.
   $default_theme = variable_get('theme_default', 'bartik');
   $admin_theme = 'seven';
   $values = array(
