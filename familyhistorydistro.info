@@ -35,3 +35,11 @@ dependencies[] = features
 dependencies[] = strongarm
 dependencies[] = views
 dependencies[] = views_ui
+
+; Features
+dependencies[] = autobiography
+dependencies[] = biography
+dependencies[] = journal
+dependencies[] = letter
+dependencies[] = obituary
+dependencies[] = story

@@ -23,3 +23,7 @@ projects[drupal][patch][912700] = http://drupal.org/files/issues/update_remove_f
 projects[familyhistorydistro][type] = profile
 projects[familyhistorydistro][download][type] = git
 projects[familyhistorydistro][download][url] = git://github.com/KyleAMathews/familyhistorydistro.git
+
+projects[familyhistorydistro-features][type] = module
+projects[familyhistorydistro-features][download][type] = git
+projects[familyhistorydistro-features][download][url] = git://github.com/KyleAMathews/Family-History-Distro-features.git
