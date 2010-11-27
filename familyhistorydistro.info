@@ -18,7 +18,6 @@ dependencies[] = taxonomy
 dependencies[] = dblog
 dependencies[] = search
 dependencies[] = shortcut
-dependencies[] = toolbar
 dependencies[] = overlay
 dependencies[] = field_ui
 dependencies[] = file
@@ -26,6 +25,7 @@ dependencies[] = rdf
 files[] = familyhistorydistro.profile
 
 ; Contrib
+dependencies[] = admin_menu
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = ctools
