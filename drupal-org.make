@@ -21,14 +21,23 @@ projects[devel][download][date] = 2010-10-27
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0-beta2
 
+projects[googleanalytics][subdir] = contrib
+projects[googleanalytics][version] = 1.x-dev
+
 projects[features][subdir] = contrib
 projects[features][download][type] = cvs
 projects[features][download][module] = contributions/modules/features
 projects[features][download][revision] = DRUPAL-7--1
 projects[features][download][date] = 2010-10-27 14:00 GMT
 
+projects[pathauto][subdir] = contrib
+projects[pathauto][version] = 1.0-alpha2
+
 projects[strongarm][subdir] = contrib
 projects[strongarm][version] = 2.0-beta2
+
+projects[token][subdir] = contrib
+projects[token][version] = 1.0-alpha3
 
 projects[views][subdir] = contrib
 projects[views][type] = module
