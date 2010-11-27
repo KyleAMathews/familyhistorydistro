@@ -3,6 +3,9 @@ api = 2
 core = 7.x
 
 ; Contrib projects
+projects[admin_menu][subdir] = contrib
+projects[admin_menu][version] = 3.x-dev
+
 projects[context][subdir] = contrib
 projects[context][version] = 3.0-alpha2
 	
