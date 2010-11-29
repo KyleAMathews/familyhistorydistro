@@ -21,8 +21,8 @@ projects[devel][download][date] = 2010-10-27
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0-beta2
 
-projects[googleanalytics][subdir] = contrib
-projects[googleanalytics][version] = 1.x-dev
+projects[google_analytics][subdir] = contrib
+projects[google_analytics][version] = 1.x-dev
 
 projects[features][subdir] = contrib
 projects[features][download][type] = cvs
