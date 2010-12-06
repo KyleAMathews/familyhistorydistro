@@ -1,5 +1,4 @@
 <?php
-// $Id: familyhistorydistro.install,v 1.23 2010/09/07 18:01:32 webchick Exp $
 
 /**
  * Implements hook_install().
@@ -9,8 +8,8 @@
 function familyhistorydistro_install() {
   // Add text formats.
   $filtered_html_format = array(
+    'format' => 'filtered_html',
     'name' => 'Filtered HTML',
-    'machine_name' => 'filtered_html',
     'weight' => 0,
     'filters' => array(
       // URL filter.
@@ -39,8 +38,8 @@ function familyhistorydistro_install() {
   filter_format_save($filtered_html_format);
 
   $full_html_format = array(
+    'format' => 'full_html',
     'name' => 'Full HTML',
-    'machine_name' => 'full_html',
     'weight' => 1,
     'filters' => array(
       // URL filter.
@@ -63,7 +62,7 @@ function familyhistorydistro_install() {
   $full_html_format = (object) $full_html_format;
   filter_format_save($full_html_format);
 
-  // Enable some familyhistorydistro blocks.
+  // Enable some blocks.
   $default_theme = variable_get('theme_default', 'bartik');
   $admin_theme = 'seven';
   $values = array(
@@ -113,16 +112,6 @@ function familyhistorydistro_install() {
       'theme' => $default_theme,
       'status' => 1,
       'weight' => 0,
-      'region' => 'sidebar_first',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'system',
-      'delta' => 'management',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 1,
       'region' => 'sidebar_first',
       'pages' => '',
       'cache' => -1,
@@ -247,7 +236,6 @@ function familyhistorydistro_install() {
       'type' => 'node',
       'bundle' => 'article',
       'mapping' => array(
-        'rdftype' => array('sioc:Item', 'foaf:Document'),
         'field_image' => array(
           'predicates' => array('og:image', 'rdfs:seeAlso'),
           'type' => 'rel',
@@ -315,7 +303,7 @@ function familyhistorydistro_install() {
     'description' => $vocabulary->help,
     'widget' => array(
       'type' => 'taxonomy_autocomplete',
-      'weight' => 4,
+      'weight' => -4,
     ),
     'display' => array(
       'default' => array(
@@ -403,7 +391,7 @@ function familyhistorydistro_install() {
   // Enable default permissions for system roles.
   $filtered_html_permission = filter_permission_name($filtered_html_format);
   user_role_grant_permissions(DRUPAL_ANONYMOUS_RID, array('access content', 'access comments', $filtered_html_permission));
-  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', 'access comments', 'post comments', 'post comments without approval', $filtered_html_permission));
+  user_role_grant_permissions(DRUPAL_AUTHENTICATED_RID, array('access content', 'access comments', 'post comments', 'skip comment approval', $filtered_html_permission));
 
   // Create a default role for site administrators, with all available permissions assigned.
   $admin_role = new stdClass();
