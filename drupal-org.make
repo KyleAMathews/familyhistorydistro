@@ -13,10 +13,7 @@ projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.0-alpha1
 
 projects[devel][subdir] = contrib
-projects[devel][type] = module
-projects[devel][download][type] = cvs
-projects[devel][download][module] = contributions/modules/devel
-projects[devel][download][date] = 2010-10-27
+projects[devel][version] = 1.0-rc1
 
 projects[diff][subdir] = contrib
 projects[diff][version] = 2.0-beta2
@@ -40,8 +37,4 @@ projects[token][subdir] = contrib
 projects[token][version] = 1.0-alpha3
 
 projects[views][subdir] = contrib
-projects[views][type] = module
-projects[views][download][type] = cvs
-projects[views][download][module] = contributions/modules/views
-projects[views][download][revision] = DRUPAL-7--3
-projects[views][download][date] = 2010-10-28
+projects[views][version] = 3.x-dev
