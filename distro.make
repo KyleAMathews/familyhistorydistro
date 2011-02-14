@@ -1,5 +1,5 @@
 ; Use this file to build a full familyhistory distro e.g.
-;  $ drush make familyhistorydistro.make [directory]
+;  $ drush make distro.make [directory]
 
 ; Core
 api = 2
