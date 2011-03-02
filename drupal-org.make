@@ -7,7 +7,7 @@ projects[admin_menu][subdir] = contrib
 projects[admin_menu][version] = 3.x-dev
 
 projects[context][subdir] = contrib
-projects[context][version] = 3.0-alpha3
+projects[context][version] = 3.0-beta1
 	
 projects[ctools][subdir] = contrib
 projects[ctools][version] = 1.0-alpha2
