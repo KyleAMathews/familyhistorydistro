@@ -45,9 +45,9 @@ projects[views][version] = 3.x-dev
 ; Install Profile
 projects[familyhistorydistro][type] = profile
 projects[familyhistorydistro][download][type] = git
-projects[familyhistorydistro][download][url] = git://github.com/KyleAMathews/familyhistorydistro.git
+projects[familyhistorydistro][download][url] = http://github.com/KyleAMathews/familyhistorydistro.git
 
 ; Features
 projects[familyhistorydistro-features][type] = module
 projects[familyhistorydistro-features][download][type] = git
-projects[familyhistorydistro-features][download][url] = git://github.com/KyleAMathews/Family-History-Distro-features.git
+projects[familyhistorydistro-features][download][url] = http://github.com/KyleAMathews/Family-History-Distro-features.git
