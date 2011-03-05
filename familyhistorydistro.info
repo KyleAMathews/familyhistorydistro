@@ -41,7 +41,11 @@ dependencies[] = views_ui
 ; Features
 dependencies[] = autobiography
 dependencies[] = biography
+dependencies[] = funeral
+dependencies[] = gravesite
 dependencies[] = journal
 dependencies[] = letter
 dependencies[] = obituary
+dependencies[] = patriarchal_blessing
 dependencies[] = story
+dependencies[] = will
