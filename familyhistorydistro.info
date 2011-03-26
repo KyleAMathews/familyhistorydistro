@@ -31,6 +31,7 @@ dependencies[] = context_ui
 dependencies[] = ctools
 dependencies[] = devel
 dependencies[] = diff
+dependencies[] = google_fonts
 dependencies[] = features
 dependencies[] = pathauto
 dependencies[] = strongarm
