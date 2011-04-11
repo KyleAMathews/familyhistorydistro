@@ -26,6 +26,7 @@ files[] = familyhistorydistro.profile
 
 ; Contrib
 dependencies[] = admin_menu
+dependencies[] = boxes
 dependencies[] = context
 dependencies[] = context_ui
 dependencies[] = ctools
