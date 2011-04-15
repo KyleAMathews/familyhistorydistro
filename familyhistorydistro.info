@@ -52,7 +52,3 @@ dependencies[] = patriarchal_blessing
 dependencies[] = story
 dependencies[] = will
 dependencies[] = family_history_distro_core
-
-; Themes
-dependencies[] = html5_base
-dependencies[] = elijah
