@@ -36,6 +36,7 @@ dependencies[] = google_fonts
 dependencies[] = jquery_update
 dependencies[] = pathauto
 dependencies[] = strongarm
+dependencies[] = tipsy
 dependencies[] = token
 dependencies[] = views
 dependencies[] = views_ui
