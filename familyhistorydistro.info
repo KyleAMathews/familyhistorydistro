@@ -54,3 +54,4 @@ dependencies[] = story
 dependencies[] = will
 dependencies[] = family_history_distro_core
 dependencies[] = fhd_person
+dependencies[] = fhd_frontpage
